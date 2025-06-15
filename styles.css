@@ -1,12 +1,24 @@
 /* Index Styles*/
 
 body{
-    /*outline: solid black 1px;*/
+    /*border: solid black 1px;*/
+    text-align: center; 
+    background-color: #fdf6f0;
+}
+
+h2{
     text-align: center;
 }
 
-.intro{
-    /*outline: solid red 1px;*/
+/*.intro{
+    outline: solid red 1px;
+}
+*/
+.card{
+    border:solid black 5px;
+    width: 700px;
+    height: auto;   
+    margin: 0px auto;
 }
 
 .links{
@@ -18,4 +30,44 @@ body{
     margin: 16 auto;
     /*outline: solid green 1px;*/
     display:inline-block;
+}
+
+.images{
+    box-sizing: border-box;
+    border: solid black 5px;
+    width: 480px;
+    height: auto;
+}
+
+/* Pork Adobo Page*/
+.description{
+    margin: 10px auto;
+    box-sizing: border-box;
+    width: 480px;
+    height: auto;
+}
+
+.ingredients{
+    box-sizing: border-box;
+    margin: 20px auto;
+    width: 480px;
+    height: auto;
+    border: solid black 3px;
+    text-align: left;
+    background-color: #fff5e1;
+}
+
+.steps{
+    box-sizing: border-box;
+    margin: 20px auto;
+    width: 480px;
+    height: auto;
+    border: solid black 3px;
+    text-align: left;
+    background-color: #fff5e1;
+    padding: 10px;
+}
+
+.homepage{
+    margin: 40px;
 }
