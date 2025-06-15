@@ -1,0 +1,21 @@
+/* Index Styles*/
+
+body{
+    /*outline: solid black 1px;*/
+    text-align: center;
+}
+
+.intro{
+    /*outline: solid red 1px;*/
+}
+
+.links{
+    text-align: left;
+    box-sizing: border-box;
+    width: 200px;
+    height:60px;
+    padding-left: 20px;
+    margin: 16 auto;
+    /*outline: solid green 1px;*/
+    display:inline-block;
+}
