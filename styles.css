@@ -6,20 +6,22 @@ body{
     background-color: #fdf6f0;
 }
 
-h2{
-    text-align: center;
+.empty{
+    background-color: #eee;
 }
 
-/*.intro{
-    outline: solid red 1px;
-}
-*/
 .card{
     border:solid black 5px;
     width: 700px;
     height: auto;   
     margin: 0px auto;
+    background-color: #fdf6f0;
 }
+
+h2{
+    text-align: center;
+}
+
 
 .links{
     text-align: left;
@@ -32,6 +34,8 @@ h2{
     display:inline-block;
 }
 
+/* Details for the Pages*/
+
 .images{
     box-sizing: border-box;
     border: solid black 5px;
@@ -39,7 +43,6 @@ h2{
     height: auto;
 }
 
-/* Pork Adobo Page*/
 .description{
     margin: 10px auto;
     box-sizing: border-box;
